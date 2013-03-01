@@ -15,7 +15,7 @@ $(document).ready (function(){
 		  
 		  if (nom!='' && lug!='Lugar de Origen' && ema!='' && tel!=''){
 			       
-				   regidtrar(nom, lug, ema, tel);
+				   registrar(nom, lug, ema, tel);
 				   
 		  }else{
 			  pgAlert ('Todos los campos son Requeridos','Reintentar');
