@@ -12,7 +12,7 @@ function tomarImg(){
 
 // capture error callback
 	var captureError = function(error) {
-		pgAlert(Errror.code,"Cancelar");
+		pgAlert(Error.code,"Cancelar");
 	};
 
 // start image capture
