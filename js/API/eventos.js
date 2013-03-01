@@ -1,6 +1,6 @@
 // Eventos
 $(document).ready (function(){
- window.addEventListener("deviceready", function() {
+ document.addEventListener("deviceready", function() {
 
 	if (!isLogin())
      window.location.href= "#login";
@@ -28,5 +28,3 @@ function isLogin()
 	return false;
 }
 
-document.addEventListener("offline", function(){
-}, false);

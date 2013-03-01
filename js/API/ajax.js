@@ -4,12 +4,12 @@ function registrar(nom, lug, ema, tel){
 	$.ajax({
 		  type: "POST",
 		  url: "http://igitsoft.com/pgtest.php",  //se enviara a un servidor
-		  data: "nom="+nom+"&lug="+lug+"&ema="+ema+"&tel"+tel
+		  data: "nom="+nom+"&lug="+lug+"&mai="+mai+"&tel"+tel
 	}).done(function( msg ) {
 		if (msg==1)
 	  	  pgAlert(msg, 'Aceptar');
 			  else
-		  pgAlert('error', 'Cancelar');
+		  pgAlert('Error', 'Cancelar');
 	
 	});
 }
