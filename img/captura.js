@@ -16,6 +16,6 @@ function tomarImg(){
 	};
 
 // start image capture
-	navigator.device.capture.captureVideo(captureSuccess, captureError, {limit:1});
+	navigator.device.capture.captureImage(captureSuccess, captureError, {limit:1});
 
 }
