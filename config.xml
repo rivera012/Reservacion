@@ -20,16 +20,16 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="true" />
 
-    <icon src="img/logo.jpg" />
-    <icon src="img/logo.jpg"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="img/logo.jpg"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="img/logo.jpg"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="img/logo.jpg"   gap:platform="android"    gap:density="xhdpi" />
+    <icon src="img/logo.png" />
+    <icon src="img/logo.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="img/logo.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="img/logo.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="img/logo.png"   gap:platform="android"    gap:density="xhdpi" />
    
-    <icon src="img/logo.jpg"            gap:platform="ios"        width="57" height="57" />
-    <icon src="img/logo.jpg"            gap:platform="ios"        width="72" height="72" />
-    <icon src="img/logo.jpg"            gap:platform="ios"        width="114" height="114" />
-    <icon src="img/logo.jpg"            gap:platform="ios"        width="144" height="144" />
+    <icon src="img/logo.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="img/logo.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="img/logo.png"            gap:platform="ios"        width="114" height="114" />
+    <icon src="img/logo.png"            gap:platform="ios"        width="144" height="144" />
     
 
     <gap:splash src="img/splashscreen.jpg"  gap:platform="android" gap:density="ldpi" />
