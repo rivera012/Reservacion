@@ -19,7 +19,7 @@
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="true" />
-	<preference name="splash-screen-duration" value="5000"
+	<preference name="splash-screen-duration" value="5000">
 
     <icon src="img/logo.png" />
     <icon src="img/logo.png"   gap:platform="android"    gap:density="ldpi" />
