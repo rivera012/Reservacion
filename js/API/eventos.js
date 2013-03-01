@@ -5,19 +5,18 @@ $(document).ready (function(){
 	if (!isLogin())
      window.location.href= "#login";
 	 
-	 $('#logEnv').click(function(){
-		 var nom = $('#logNom').val();
-		 var lug = $('#logLug').val();
+	 $('#logEnv').tap(function(){
+		  var nom = $('#logNom').val();
+		  var lug = $('#logLug').val();
 		  var ema = $('#logEma').val(); 
 		  var tel = $('#logTel').val();
 		  
 
 		  
 		  if (nom!='' && lug!='Lugar de Origen' && ema!='' && tel!=''){
-			  pgAlert(nom+'\n'+
-			        lug+'\n'+
-					ema+'\n'+
-					tel,'Aceptar');
+			       
+				   regidtrar(nom, lug, ema, tel);
+				   
 		  }else{
 			  pgAlert ('Todos los campos son Requeridos','Reintentar');
 		  }
@@ -28,3 +27,6 @@ function isLogin()
 {
 	return false;
 }
+
+document.addEventListener("offline", function(){
+}, false);
