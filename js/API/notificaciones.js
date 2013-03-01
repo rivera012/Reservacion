@@ -2,7 +2,7 @@
 
 function pgAlert(msj,btn) {
 	
-	navigator.notification.alert(msj, false, null, "Reservaciones", btn);  //alerta de phonegap
+	navigator.notification.alert(msj, null, "Reservaciones", btn);  //alerta de phonegap
 	
 	} 
 	
