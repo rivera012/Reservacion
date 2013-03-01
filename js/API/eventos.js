@@ -21,6 +21,11 @@ $(document).ready (function(){
 			  pgAlert ('Todos los campos son Requeridos','Reintentar');
 		  }
 });
+
+		$('#logFoto').tap(function(){
+			tomarImg();
+		});
+
       },false);
 });
 function isLogin()

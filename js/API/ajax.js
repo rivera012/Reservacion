@@ -7,6 +7,7 @@ function registrar(nom, lug, ema, tel){
 		  data: "nom="+nom+"&lug="+lug+"&mai="+ema+"&tel"+tel
 	}).done(function( msg ) {
 		if (msg==1)
+			
 	  	  pgAlert(msg, 'Aceptar');
 			  else
 		  pgAlert('Error', 'Cancelar');
